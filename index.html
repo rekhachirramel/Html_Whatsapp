@@ -1,12 +1,23 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WhatsApp Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hai</h1>
+
+    <div class="form-container">
+        <h2>Contact Form</h2>
+
+        <form id="whatsappForm">
+            <input type="text" id="name" placeholder="Enter Name" required>
+            <input type="text" id="phone" placeholder="Enter Phone" required>
+            <textarea id="message" placeholder="Enter Message" required></textarea>
+
+            <button type="submit">Send via WhatsApp</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
